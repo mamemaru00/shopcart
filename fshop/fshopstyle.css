@@ -1,0 +1,49 @@
+/*   fshopstyle.css   */
+
+body{
+  background: azure;
+}
+nav ul,footer ul{
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  width: 90%;
+}
+nav ul li,footer ul li{
+  display: inline-block;
+  width: 30%;
+  background: lightblue;
+  padding: 6px 0;
+}
+nav ul li a,footer ul li a{
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+h1{
+  text-align: center;
+}
+main {
+  background: honeydew;
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+}
+footer p{
+  text-align: center;
+}
+ul.itemlist{
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+}
+ul.itemlist li{
+  line-height: 30px;
+  width: 300px;
+}
+ul.itemlist li:nth-child(even) {
+  background: honeydew;
+}
+ul.itemlist li:nth-child(odd) {
+  background: lightgreen;
+}

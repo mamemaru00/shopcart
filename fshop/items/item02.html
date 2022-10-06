@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../fshopstyle.css">
+    <title>さかなショップ商品詳細ページ</title>
+  </head>
+  <body>
+    <header>
+      <h1>さかなショップ</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">トップページ</a></li>
+        <li><a href="item_list.html">商品一覧</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    </header>
+    <main>
+      <section>
+<h3>商品詳細ページ</h3>
+数量を入力しカートに入れるボタンをクリックするとショッピングカートに入ります。<br>
+<form method="post" action="../cart/item_cart.php">
+  <ul class="itemlist">
+    <li><img src="img/item02.jpg"></li>
+    <li>商品ID：02<input type="hidden" name="id" value="2"></li>
+    <li>商品名：ブリ<input type="hidden" name="name" value="ブリ"></li>
+    <li>商品価格：650 円<input type="hidden" name="price" value="650"></li>
+    <li>数量：<input type="text" name="num" value="1" style="width:30px;"></li>
+    <li><input type="submit" value="カートに入れる"></li>
+  </ul>
+</form>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="#">利用規約</a></li>
+        <li><a href="#">特定商取引法</a></li>
+        <li><a href="#">プライバシーポリシー</a></li>
+      </ul>
+      <p>Copyright 2020 Fish Shop</p>
+    </footer>
+  </body>
+</html>
